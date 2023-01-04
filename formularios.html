@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!-- LA ETIQUETA FORM deja al usuario introducir datos-->
+        <form action="resultado.html" method="GET">
+            <!-- tambien puedo usar el metodo 
+            POST - este metodo se usa cuando la informacion que envio va a ser procesada de alguna forma por ejemplo la usa
+            un servidor para meterlo en una base de datos.
+            el metodo GET lo que hace es enviar la informacion como parametros sin importar que hace la pagina con ella.
+        -->
+            <div>
+                <label for="username">Nombre de Usuario </label>
+                <!-- el atributo for dice que este label se va a aplicar a la etiqueta
+                    que tenga el id mencionado EN ESTE CASO se aplica al input a continuacion-->
+                <input name="username" id="username" required/> <!-- el atributo id es el identificador del input
+                    el atributo name nos e jejejeje
+                    el atributo required obliga a completar el campo-->
+                <!-- esto genera el cuadrito de texto-->
+            </div>
+            <div>
+                <label for="password">Contraseña</label>
+                <input name="password" id="password" type="password" required/> <!-- el atributo type  me permite definir el formato del texto que quiero que se ingrese-->
+            </div>
+            <div>
+                <label for="edad">Edad</label>
+                <input name="edad" id="edad" type="number" min="0" max="200"/> <!-- el atributo min y max permiten definir el rango de numeros-->
+            </div>
+            <div>
+                <label for="coments">Comentarios</label>
+                <textarea name="coments" id="coments"></textarea>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email"></input>
+            </div>
+            <div>
+                <label for="fechaN">Fecha de Nacimiento</label>
+                <input name="fechaN" id="fechaN" type="date"></input>
+            </div>
+            <button type="reset">Reset</button>
+            <!-- este boton resetea el contenido de los campos de texto-->
+            <button type="submit">Enviar</button>
+            <!-- este boton envia el contenido de los inputs-->
+        </form>
+    </body>
+</html>
