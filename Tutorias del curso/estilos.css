@@ -1,0 +1,41 @@
+h1 {
+    color:blueviolet; /* termino en ; las lineas todo lo que vaya aca va
+     a cambiar todos los estilos de TODOS los h1 de la pagina*/
+}
+p {
+    /* estos son conjuntos de clave valor, clave : valor  siempre s eusa asi con los 2 puntos.
+    si intento poner otro valor a color, va a sobreescribir el anterior*/
+    color:crimson;
+    font-size: 30pt;
+    color: chocolate;
+}
+
+
+#noticia1{
+    color: crimson;
+    font-size: 20pt;
+}
+.noticia2 {
+    color:aqua;
+    border-radius: 5px;
+    border-color: black;
+    font-size: 20pt;
+    text-shadow: 3px;
+
+}
+
+/* el * es el selector universal, yo puedo ahcer tambien *.CLASE y asi ponerle un estylo a todos los
+elementos de la clase CLASE
+tengo que ver bien que se sobrepone a que. creo que la clase se sobrepone al id en el caso
+que yo asigne una clase y un id a la misma etiqueta*/
+* {
+    color: darkgreen;
+    }
+
+    /* si yo quiero aplicar un mismo estilo a distintas clases e id. puedo usar las comas por ejemplo
+    para subrayar todas las noticias*/ 
+
+    .noticia2, #noticia1 {
+        text-decoration: underline;
+    }
+
