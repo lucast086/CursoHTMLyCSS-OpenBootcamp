@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>multimedia con HTML</title>
+    </head>
+    <body>
+        <h3>Imagenes</h3>
+        <img
+            src="imagenes/HTML5_logo_and_wordmark.svg.png"
+            alt="Logo HTML5"
+            width="300"
+            height="300"
+        />
+        <br>
+        <img src="https://elcomercio.pe/resizer/AB93Kg1JoITGLMLkCgLBnVzg_7g=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/37OWRM2CLBAE7BP5SXKLVMNHZE.jpg" alt="moto" width="300" height="300" />
+        <!-- width y heigth regulan el alto y largo de la imagen, src es la fuente de donde proviene la imagen.
+        lo ideal es tener todas las imagenes en una carpeta 
+    tambien puedo acceder a imagenes de urls pero si la url desaparece voy a perder mi source-->
+        <h3>Videos</h3>
+        <video width="640" height="480" controls>
+            <source src="imagenes/Intro.mp4" type="video/mp4"/>
+        </video>
+        <!-- videos que podemos usar en html  webm - mp4 - ogg
+        otros atributos puede ser muted autoplay loop
+    es una forma de poner aunque tambien puedo poner todo en la etiqueta <video/> solamente-->
+        <h3>Audios</h3>
+        <audio
+            src="imagenes/03-Multimedia_gnr-welcome.mp3"
+            controls
+            type="audio/mp3"
+        />
+    </body>
+</html>
