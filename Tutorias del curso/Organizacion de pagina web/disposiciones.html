@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/disposiciones.css" />
+        <title>Disposiciones</title>
+    </head>
+    <body>
+        <!-- un div ocupa todo el ancho de la pantalla-->
+        <div class="div1">esto es un div</div>
+        <!-- pero un span intenta ocupar solo lo necesario para lo que contiene-->
+        <span class="span1">esto es un Span</span>
+        <img
+            class="imagen"
+            src="img/HTML5_logo_and_wordmark.svg.png"
+            alt="html logo"
+        />
+        <span class="span2">esto es otro span</span>
+        <div class="div2">esto es otro div</div>
+
+        <div>
+            <h2>Posicionamiento en CSS</h2>
+            <ul>
+                <li>static (es por defecto)</li>
+                <li>relative</li>
+                <li>fixed</li>
+                <li>absolute</li>
+                <li>sticky</li>
+            </ul>
+        </div>
+        <br />
+        <div class="static">
+            los div static no permiten editar el Posicionamiento como left, etc
+        </div>
+        <div class="relative">
+            Los div relativos puedo modificarlos y se posicionan en relacion al
+            posicionamiento que tendrian si fuera static (posicion original)
+        </div>
+        <div class="fixed">
+            este posicionamiento se usa en barras de navegacion para que <br />
+            esten abajo del todo o arriba del todo por ejemplo. sin importar los
+            otros elementos <br />
+            este siempre va a estar ahi
+        </div>
+        <br>
+        <div class="sticky"> el sticky es una mezcla entre el relativo y el fijo <br>
+        se usa en menus para darle mas fluides y estetica a los mismos <br>
+    se mantiene en una posicion pero al hacer scroll modifica su posicion <br>
+y pasa de relative a fixed </div>
+
+        <div class="relative contenedor"> este es un contenedor que tiene otros div adentro
+            <div class="absolute">
+                este siempre va a estar fijo pero respecto a la posicion <br />
+                del padre (que vendria a ser el elemento mas cercano hacia
+                arriba de el) <br />
+                puedo poner a su vez este tipo de posicion en un div con
+                posicion relativa <br />
+                para poder mantenerlo fijo dentro de esa seccion.
+            </div>
+        </div>
+
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+        <div> relleno divs</div>
+
+     
+
+    </body>
+</html>

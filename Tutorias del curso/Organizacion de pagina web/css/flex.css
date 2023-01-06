@@ -1,0 +1,42 @@
+.flex {
+    display: flex; /*esto contiene todo lo que tiene el div y lo ordena para que entre  
+    por defecto lo pone en fila pero yo puedo decirle como justificar el contenido
+    al redimensionar la pagina puedo ver como cambia la cosa.
+    su eje principal es el horizontal.*/
+
+    /* puedo cambiar el eje principal con el comando 
+    flex-direction: column;    */
+
+
+    justify-content:space-around;   
+    
+    /* si pongo el wrap esto permite la reubicacion de los elementos dentro del div*/
+     /* flex-wrap: nowrap; */
+
+     /* para trabajar en vertical puedo usar el align items
+     por defecto es el strech  tengo que ver si los otros div tienen
+     definidos el height va a tomar esas propiedades*/
+     align-items: center;
+    
+    background-color: darkgoldenrod;
+    height: 300px;
+}
+
+.contenido1 {
+    background-color: aquamarine;
+    border: 1px solid blue;
+    /* height: 200px; */
+    width: 100px;
+}
+.contenido2 {
+    background-color: aquamarine;
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+}
+.contenido3 {
+    background-color: aquamarine;
+    border: 1px solid blue;
+    height: 200px;
+    width: 100px;
+}

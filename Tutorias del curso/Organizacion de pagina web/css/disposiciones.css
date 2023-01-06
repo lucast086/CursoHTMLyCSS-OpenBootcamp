@@ -1,0 +1,54 @@
+/* los div tienen por defecto un display de block*/
+.div1, .div2 {
+    background-color: brown;
+}
+/*a las etiquetas hago referencia sin poner nada, a las clases con un . y a los i
+con el # */
+.imagen {
+    width: 100px;
+    height: 100px;
+}
+
+/* los span tienen por defecto un display de inline*/
+.span1, .span2 {
+    background-color: blueviolet;
+}
+
+.span2 {
+    float: right;
+}
+.span1{
+    float:left;
+}
+
+div {
+    border: 1px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+
+.relative {
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+.fixed {
+    position: fixed;
+background-color: rgba(1,255,1,0.5);
+}
+.absolute {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+}
+.relative.contenedor {
+    background-color: aqua;
+    width: 500px;
+    height: 300px;
+}
+.sticky {
+    background-color: rgba(20,20,200,0.5);
+    position: sticky;
+    top:0px;
+}

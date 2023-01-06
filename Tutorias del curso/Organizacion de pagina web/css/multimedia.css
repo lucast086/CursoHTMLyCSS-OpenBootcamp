@@ -1,0 +1,52 @@
+/* el user agent stylesheet pone por defecto algunas cositas 
+que a veces puede interferir y lo sacamos de esta manera */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.imgPrinc {
+    margin: 30px;
+    /* wide view vw lo que hace es poner a un porcentaje de la vista. en este caso el 100%*/
+    width: 100vw;
+    opacity: 0.4;
+}
+
+/* la Propiedad hover, cambia el style cuando paso por encima del elemento*/
+.imgPrinc:hover {
+    opacity: 1;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    /* aporta un espacio entre los elementos */
+    gap: 30px;
+}
+
+.imgGalery {
+    width: 150px;
+    opacity: 0.6;
+}
+.imgGalery:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: absolute;
+}
+.header {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    position:relative;
+    text-align: center;
+    display: flex;
+justify-content: center;
+align-items: center;
+    flex-direction: column;
+    height: 100vh;;
+}
