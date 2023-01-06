@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/selectores.css" />
+        <title>Selectores</title>
+    </head>
+    <body>
+        <section class="main">
+            <div class="contenedor">
+                <p>Pariatur aute esse mollit aute Lorem minim culpa qui.</p>
+                <p>Pariatur aute esse mollit aute Lorem minim culpa qui.</p>
+                <p>Pariatur aute esse mollit aute Lorem minim culpa qui.</p>
+                <p>Pariatur aute esse mollit aute Lorem minim culpa qui.</p>
+                <p>Pariatur aute esse mollit aute Lorem minim culpa qui.</p>
+                <button id="btn">BOTONASO</button>
+            </div>
+            <p>este parrafo esta fuera del div</p>
+        </section>
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .hover {
+                width: 300px;
+                height: 100px;
+                background-color: blue;
+            }
+
+            .hover:hover {
+                background-color: aqua;
+            }
+.fch p:first-child {
+    color:blueviolet;
+}
+
+        </style>
+        <div>
+            <br />
+            <h1>PseudoClases</h1>
+            <div class="hover">
+                <p>
+                    La PseudoClase hover actua cuando el mouse para por encima
+                </p>
+            </div>
+            <br>
+            <div class="fch">
+                <p>
+                Pseudoclase First Child solamente afecta al primer elemtno(hijo)
+                </p>
+                <p>de la clase que toque. en este caso afecto al primer P de la clase fch</p>
+                <p>y a los otros parrafos no los cambia</p>
+            </div>
+            <div class="enlaces">
+                <p>
+                    La PseudoClase hover actua cuando el mouse para por encima
+                </p>
+                <a href="http://google.com"></a>
+            </div>
+        </div>
+    </body>
+</html>

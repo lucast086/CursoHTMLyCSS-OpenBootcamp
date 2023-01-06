@@ -1,0 +1,19 @@
+/* cuando yo quiero afectar a todos los elementos que esten en un contenedor (div)
+y no quiero afectar a los elemtnos del mismo tiempo que estan por fuera. Y para ahorrarme la necesidad
+de asiganrle una clase a cada uno. yo puedo anidar Selectores.
+en este caso afecto los parrafos en el contendor*/
+
+.contenedor p {
+    color:blue;
+}
+
+.contenedor #btn {
+    background-color: aqua;
+}
+
+/* este anidado es exagerado pero es para mostrar que
+se puede anidar de todo, otorgando presicion y ahorrando codigo*/
+body section.main .contenedor p {
+
+
+}

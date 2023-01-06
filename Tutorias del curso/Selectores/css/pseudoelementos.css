@@ -1,0 +1,28 @@
+/* 
+La especificidad tiene un rango y de esta forma se aplica a los elementoss,
+
+por ejemplo esto es un orden de especificidad, por lo que yo aplique al id de un
+elemento va a pisar lo que haya sido aplicado en su clase o en el 
+objeto en si. por mas que este declarado antes.
+
+1- id
+2- clase
+3- orden si pertenecen a la misma linea
+
+anidando selectores yo puedo aumentar la especificidad 
+
+ademas puedo usar un wildcard que es !important 
+lo que hace es que aplique esto por sobre toda las cosas.
+*/
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::before {
+    content: '<<';
+}
+
+span.frase::after {
+    content: '>>';
+}
