@@ -1,0 +1,36 @@
+.fondo {
+    background-color: beige;
+    width: 400px;
+    height: 400px;
+}
+
+.viajero {
+    width: 100px;
+    height: 100px;
+    background-color: lightgreen;
+    animation: contorno 4s forwards infinite ;
+}
+
+.fondo:hover .viajero {
+    animation: contorno 4s forwards infinite reverse ;
+}
+
+@keyframes contorno {
+    0% {
+transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(300%) translateY(0%);
+        
+    }
+    50%{
+        transform: translateX(300%) translateY(300%);
+    }
+    75%{
+        transform: translateX(0%) translateY(300%);
+    }
+    100%{
+        background-color: darkgreen;
+        transform: translateX(0%) translateY(0%);
+    }
+}
