@@ -1,0 +1,43 @@
+.esc {
+    margin: 10px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.esc1 {
+    width: 100%;
+}
+.esc2 {
+    width: 50%;
+}
+
+.px {
+    background-color: coral;
+    width: 200px;
+}
+
+.porc {
+    background-color: aquamarine;
+    width: 50%;
+}
+
+.view {
+    background-color: yellowgreen;
+    width:  50vw;
+}
+
+.esc3 {
+    font-size: 32px;
+}
+
+.esc4 {
+    font-size: 16px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 2rem;
+}

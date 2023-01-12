@@ -1,0 +1,35 @@
+h1 {
+    color: red;
+    font-size: 4rem;
+}
+
+p {
+font-size: 2rem;
+}
+/* el estilo mobile First tiene como prioridad definir los estilos para un screen pequeño
+y luego en los mediaquery usando min-with voy añadiendo estilos a los screen de
+mayor tamaño*/
+
+@media screen and (min-width: 700px)
+{
+    h1 {
+        color: aqua;
+    }
+}
+
+/* sino usando el max width puedo ahcer la inversa.
+
+otra forma es usar la orientacion, o sea si esta en
+Portrait o Landscape (horizontal)*/
+
+@media (orientation: landscape) {
+    p {
+        color: blue;
+    }
+}
+ /*la , es como un OR */
+@media (min-width: 500px), (min-height: 300px) {
+    h1 {
+        color: cadetblue;
+    }
+}

@@ -1,0 +1,25 @@
+.contenedor {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    background-color: black;
+    min-height: 5rem;
+/* alineacion de eje secundario*/
+    align-items: center;
+/* alineacion de eje principa */
+justify-content: space-evenly;
+/* eleccion del eje principal */
+flex-direction: row;
+
+flex-wrap: wrap;
+}
+
+.item {
+    background-color: bisque;
+    padding: 0.25rem;
+    width: 10rem;
+}
+
+.item2 {
+    align-self: baseline;
+}
