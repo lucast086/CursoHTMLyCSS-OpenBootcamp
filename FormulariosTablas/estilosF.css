@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+* {
+    font-family: 'Ubuntu Mono', monospace;
+    color: white;
+}
+
+body {
+    background-color: #161717;
+}
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles  {
+    align-self: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.btns {
+    display: flex;
+    align-self: flex-start;
+    gap: 20px;
+}
+.btn-google {
+    background-color: #1a73e8;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.btn-twitter {
+    background-color: rgb(128, 127, 127);
+}
+
+.btn {
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+   opacity: 75%;
+}
+.btn-google span {
+    padding: 10px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.btn-google picture{
+    border-radius: 4px;
+width: 36px;
+height: 36px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn-google picture img{
+width: 50%;
+}
+.separador {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+.separador hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #b5b5b5;
+}
+
+.separador span {
+    color: #2b2b2b;
+}
+
+input {
+    background-color: #212121;
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 10px;
+    outline: none;
+}
+
+input:hover {
+    box-shadow: 0 0 10px #EA4C89;
+    background-color: #454045;
+}
+
+.inputs1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.inputs1 input {
+width: 80%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+}
+
+#checkbox {
+    flex-direction: row;
+}
+#checkbox span {
+    color: #6E6D7A;
+}
+
+.btn-crearCuenta {
+    background-color: #EA4C89 ;
+}
+

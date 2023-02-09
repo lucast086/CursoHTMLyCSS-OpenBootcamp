@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+h1 {
+  margin: 0;
+  color: #c51212;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #f1f1f1;
+}
+
+p {
+  color: #c51212;
+  text-transform: uppercase;
+  width: 50rem;
+  background-color: #2b2b2b;
+}
+
+.listado {
+  width: 10rem;
+  background-color: #c51212;
+  padding: 0.5 rem;
+}
+.listado ul {
+  margin: 0 0.5rem;
+}
+.listado ul li {
+  font-size: larger;
+}
+.listado ul li:hover {
+  color: antiquewhite;
+}
+
+/*# sourceMappingURL=styles.css.map */
